@@ -23,7 +23,7 @@ kind: Service
 metadata:
   name: miraclesvc
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
     app: my-apt
   ports:
